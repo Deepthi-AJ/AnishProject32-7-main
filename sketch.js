@@ -168,7 +168,7 @@ function keyPressed(){
         if(init===1){   
 
             ninja.changePosition(290,300);
-            ninja = new Ninja(shuriken.body,{x:300, y:300}, 275,280);
+            ninja = new Ninja(shuriken.body,{x:300, y:100}, 275,280);
             Matter.Body.setPosition(shuriken.body, {x: 300 , y: 100}); 
 
             ninjaPlatform.changeGrPosition(300,500);
